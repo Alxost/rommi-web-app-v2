@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  gap: 0px;
+  pad: 0px;
+}
+
+.Row{
+  display: flex;
+  width: 50%;
+  height: 70px;
+  padding: 3px;
+  background-color:#918f8f;
+  border-style: solid;
+  border-color: #c4d2d0;
+  border-width: 2px;
+  gap: 5px;
+}
+.EmptyRow{
+  display: flex;
+  width: 50%;
+  height: 70px;
+  padding: 3px;
+  background-color:#3e3636;
+  border-style: solid;
+  border-color: #c4d2d0;
+  border-width: 2px;
+  gap: 5px;
+}
+
+.GameBoard{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 800px;
+  gap: 0px;
+  /*border: 3px solid #4f6655;*/
+  background-color:#c4d2d0;
+}
+.Hand{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70px;
+  padding: 0px;
+  /*border: 3px solid #641c08;*/
+  background-color:#241e1e;
+  text-align: center;
+  gap: 1px;
+}
+
+.GamePanel{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  background-color:#241e1e;
+  color: rgb(32, 26, 26);
+}
+.PlayerPanel{
+  width: 20%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color:#151427;
+  font-size: large;
+  background-color: rgb(245, 144, 12);
+}
+.NextButton{
+  width: 5%;
+  height: 50px;
+  font-size: large;
+  color: rgb(255, 255, 255);
+  background-color:#850968;
+  border: 0;
+}
+.DrawCardButton{
+  width: 10%;
+  height: 50px;
+  font-size: large;
+  color: rgb(255, 255, 255);
+  background-color:#28982c;
+  border: 0;
+}
+
+.GamePanel ul{
+  list-style: none;
+  display:contents;
+}
